@@ -21,3 +21,5 @@ module.exports = function(options) {
 		fs.readFile(item.sourcePath, next);
 	}
 }
+
+module.exports.marked = marked;
